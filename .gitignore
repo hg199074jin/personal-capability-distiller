@@ -1,0 +1,23 @@
+# 本机 Claude Code 私有权限记录（隐私）
+.claude/
+
+# Darwin 优化期间的回滚备份（仅本地回滚用）
+.backup/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Node.js（如果以后引入）
+node_modules/
+package-lock.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/

@@ -1,0 +1,5 @@
+# workflow-states.md
+
+允许状态：intake、inventory_reviewed、faithful_reconstruction_reviewed、human_material_approved、skill_simulation_passed、installation_approved、applied_in_real_task、feedback_reviewed、archived。
+
+每个状态保存时间、输入、输出、确认和返工原因。恢复时从最后一个已确认状态继续；来源变化时重新执行受影响阶段。
